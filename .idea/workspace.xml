@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8cc5a36-178c-4c3d-91dc-dc148ccdbb14" name="Default Changelist" comment="" />
+    <list default="true" id="a8cc5a36-178c-4c3d-91dc-dc148ccdbb14" name="Default Changelist" comment="创建饿汉式单例模式">
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/AbstractFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/CsCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/CsHelpDoc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/CsWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/ICode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/IHelpDoc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/IWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/JavaCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/JavaHelpDoc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/JavaWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/CSWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/IWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/JavaWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/MethodFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/han/singleton/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/han/singleton/HungrySingleton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEATest01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEATest01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/SimpleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/SimpleFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/WorkFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/WorkFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/han/simplefactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/han/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WJnADnZVjaFacPFPAEVirPmtCE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,9 +53,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Presentation" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.SimpleFactoryTest">
+  <component name="RunManager" selected="Application.AbstractFactoryTest">
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.han.abstractfactory.AbstractFactoryTest" />
+      <module name="IDEATest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.han.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.han.simplefactory.SimpleFactoryTest" />
       <module name="IDEATest01" />
@@ -69,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.SimpleFactoryTest" />
       </list>
     </recent_temporary>
@@ -99,40 +142,58 @@
       <workItem from="1578876666114" duration="114000" />
       <workItem from="1578876813903" duration="156000" />
       <workItem from="1578877121582" duration="1130000" />
+      <workItem from="1578925499388" duration="2711000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建饿汉式单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建饿汉式单例模式" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="474" y="223" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578927265641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="223" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1578927265641" />
     <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1578876764402">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578876764402" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1578928254720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578928254720" />
     <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1578878299476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578878299476" />
-    <state width="1556" height="218" key="GridCell.Tab.0.bottom" timestamp="1578878155457">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578928195761">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
     <state width="1556" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578878155457" />
-    <state width="1556" height="218" key="GridCell.Tab.0.center" timestamp="1578878155457">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578928195761">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
     <state width="1556" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578878155457" />
-    <state width="1556" height="218" key="GridCell.Tab.0.left" timestamp="1578878155456">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578928195761">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
     <state width="1556" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578878155456" />
-    <state width="1556" height="218" key="GridCell.Tab.0.right" timestamp="1578878155457">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578928195761">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
     <state width="1556" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578878155457" />
-    <state x="303" y="61" key="SettingsEditor" timestamp="1578878255787">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="259" y="12" width="1082" height="716" key="SettingsEditor" timestamp="1578927268075">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="259" y="12" width="1082" height="716" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578927268075" />
     <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578878255787" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1578877124812">
       <screen x="0" y="0" width="1600" height="860" />
