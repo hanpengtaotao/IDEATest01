@@ -2,7 +2,7 @@ package com.han.singleton;
 
 import java.util.*;
 
-/**
+/** 单例模式测试类
  * @author HPT
  * @version 1.0
  * @package com.han.singleton

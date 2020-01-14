@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8cc5a36-178c-4c3d-91dc-dc148ccdbb14" name="Default Changelist" comment="创建懒汉式单例及测试、注册式单例、线程式单例">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IDEATest01_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/IDEATest01_jar/IDEATest01.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/META-INF/IDEATest01.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/HungrySingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/HungrySingleton1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyEnumSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyInnerClassSingleton$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyInnerClassSingleton$LazyInnerClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyInnerClassSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazySimpleSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazySimpleSingletonTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazySimpleSingletonTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/TicketNumberHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="a8cc5a36-178c-4c3d-91dc-dc148ccdbb14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/SimpleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/SimpleFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/han/singleton/LazySimpleSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/han/singleton/LazySimpleSingletonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578989550093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建懒汉式单例及测试、注册式单例、线程式单例">
+      <created>1578989647221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578989647221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,15 +173,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578989253047" />
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1578989548905">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1578989646423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578928254720" />
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578989548905" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1578989633600">
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578989646423" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1578989713810">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1578989633600" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1578989713810" />
     <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1578878299476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -237,10 +227,10 @@
     </state>
     <state x="259" y="12" width="1082" height="716" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578927268075" />
     <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578963251792" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578989565918">
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578989655787">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578989565918" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578989655787" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1578877124812">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
