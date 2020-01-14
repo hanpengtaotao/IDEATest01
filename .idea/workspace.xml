@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8cc5a36-178c-4c3d-91dc-dc148ccdbb14" name="Default Changelist" comment="创建饿汉式单例模式">
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/AbstractFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/CsCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/CsHelpDoc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/CsWorkFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/ICode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/IHelpDoc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/IWorkFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/JavaCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/JavaHelpDoc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/abstractfactory/JavaWorkFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/CSWorkFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/IWorkFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/JavaWorkFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/methodfactory/MethodFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/han/singleton/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/han/singleton/HungrySingleton1.java" afterDir="false" />
+    <list default="true" id="a8cc5a36-178c-4c3d-91dc-dc148ccdbb14" name="Default Changelist" comment="创建懒汉式单例及测试、注册式单例、线程式单例">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IDEATest01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/IDEATest01_jar/IDEATest01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/META-INF/IDEATest01.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/HungrySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/HungrySingleton1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyEnumSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyInnerClassSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyInnerClassSingleton$LazyInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazyInnerClassSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazySimpleSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazySimpleSingletonTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/LazySimpleSingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/singleton/TicketNumberHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEATest01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEATest01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/SimpleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/SimpleFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/WorkFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEATest01/com/han/simplefactory/WorkFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/han/simplefactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/han/simplefactory/SimpleFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +57,28 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryTest">
+  <component name="RunManager" selected="Application.LazySimpleSingletonTest">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.han.abstractfactory.AbstractFactoryTest" />
       <module name="IDEATest01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.han.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazySimpleSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.han.singleton.LazySimpleSingletonTest" />
+      <module name="IDEATest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.han.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazySimpleSingletonTest" />
         <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.SimpleFactoryTest" />
       </list>
@@ -144,6 +156,14 @@
       <workItem from="1578877121582" duration="1130000" />
       <workItem from="1578925499388" duration="2711000" />
     </task>
+    <task id="LOCAL-00001" summary="创建懒汉式单例及测试、注册式单例、线程式单例">
+      <created>1578989550093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578989550093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,50 +171,76 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建饿汉式单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建饿汉式单例模式" />
+    <MESSAGE value="创建懒汉式单例及测试、注册式单例、线程式单例" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建懒汉式单例及测试、注册式单例、线程式单例" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="223" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578927265641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="474" y="223" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1578927265641" />
-    <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1578876764402">
+    <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1578989253047">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578876764402" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1578928254720">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578989253047" />
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1578989548905">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578928254720" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578989548905" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1578989633600">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1578989633600" />
     <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1578878299476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578878299476" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578928195761">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="778" height="218" key="GridCell.Tab.0.bottom" timestamp="1578989510883">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
-    <state width="1556" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578878155457" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578928195761">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="778" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578989510883" />
+    <state width="778" height="218" key="GridCell.Tab.0.center" timestamp="1578989510883">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
-    <state width="1556" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578878155457" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578928195761">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="778" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578989510883" />
+    <state width="778" height="218" key="GridCell.Tab.0.left" timestamp="1578989510883">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
-    <state width="1556" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578878155456" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578928195761">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="778" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578989510882" />
+    <state width="778" height="218" key="GridCell.Tab.0.right" timestamp="1578989510883">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578928195761" />
-    <state width="1556" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578878155457" />
-    <state x="259" y="12" width="1082" height="716" key="SettingsEditor" timestamp="1578927268075">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="778" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578989510883" />
+    <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1578965099691">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578965099691" />
+    <state width="1556" height="270" key="GridCell.Tab.1.center" timestamp="1578965099691">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1578965099691" />
+    <state width="1556" height="270" key="GridCell.Tab.1.left" timestamp="1578965099691">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1578965099691" />
+    <state width="1556" height="270" key="GridCell.Tab.1.right" timestamp="1578965099691">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1578965099691" />
+    <state x="303" y="61" width="1082" height="716" key="SettingsEditor" timestamp="1578963251792">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="259" y="12" width="1082" height="716" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578927268075" />
-    <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578878255787" />
+    <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578963251792" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578989565918">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578989565918" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1578877124812">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
