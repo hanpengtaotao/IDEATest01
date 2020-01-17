@@ -35,6 +35,7 @@ public class CreateThreads {
             FutureTask<Integer> futureTask = new FutureTask<Integer>(implCallable);
             Thread t = new Thread(futureTask);
             t.start();
+            //t.join();
             System.out.println(t.getName() + "----" + futureTask.get());
         }
 
