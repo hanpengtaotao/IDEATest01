@@ -6,7 +6,7 @@ package com.han.singleton;
  * @package com.han.singleton
  * @date 2020/1/14 0014 10:40
  */
-public class LazyInnerClassSingleton extends TicketNumberHandler implements Cloneable {
+public class LazyInnerClassSingleton implements Cloneable {
     //私有化构造函数
     //使用 LazyInnerClassSingleton的时候，默认会先初始化内部类
     //如果没使用，则内部类是不加载的
