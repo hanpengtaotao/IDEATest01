@@ -46,9 +46,7 @@ public class CreateThreads {
          * 线程池
          * 跟数据库连接池类似
          * 避免了线程的创建和销毁造成的额外开销
-         *
          * java.util.concurrent
-         *
          * Executor    负责现成的使用和调度的根接口
          *    |--ExecutorService    线程池的主要接口
          *          |--ThreadPoolExecutor    线程池的实现类
